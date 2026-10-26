@@ -1,0 +1,2 @@
+/usr/bin/ar qc libradar_odom_replay.a CMakeFiles/radar_odom_replay.dir/offline_odom_replay.cpp.o
+/usr/bin/ranlib libradar_odom_replay.a

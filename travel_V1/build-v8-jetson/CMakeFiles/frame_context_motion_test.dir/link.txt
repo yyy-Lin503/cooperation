@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/frame_context_motion_test.dir/tests/frame_context_motion_test.cpp.o -o frame_context_motion_test   -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/cuda/lib64 libradar_tracking_core.a libradar_odom_replay.a -lstdc++fs 

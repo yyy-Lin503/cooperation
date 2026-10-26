@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/dca_control_test.dir/tests/dca_control_test.cpp.o CMakeFiles/dca_control_test.dir/radar_config.cpp.o -o dca_control_test   -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/cuda/lib64 

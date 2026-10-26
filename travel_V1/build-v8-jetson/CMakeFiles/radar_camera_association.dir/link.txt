@@ -1,0 +1,2 @@
+/usr/bin/ar qc libradar_camera_association.a CMakeFiles/radar_camera_association.dir/camera_association.cpp.o
+/usr/bin/ranlib libradar_camera_association.a

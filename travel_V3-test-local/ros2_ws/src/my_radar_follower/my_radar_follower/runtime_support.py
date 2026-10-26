@@ -1,0 +1,43 @@
+"""Fail fast on a copied/incorrect ROS overlay; no motion functionality."""
+from pathlib import Path
+import os
+
+VERSION = 'V8'
+DEFAULT_KEY = 123458
+
+def project_root():
+    configured = os.environ.get('RADAR_PROJECT_ROOT')
+    if configured:
+        return Path(configured).resolve()
+    for parent in Path(__file__).resolve().parents:
+        if (parent / 'VERSION.txt').is_file() and (parent / 'scripts/runtime/run_gui_runtime.sh').is_file():
+            return parent
+    raise RuntimeError('Cannot find this V8 project root')
+
+
+def runtime_paths(root=None):
+    root = Path(root).resolve() if root is not None else project_root()
+    def absolute(value):
+        path = Path(value)
+        return (path if path.is_absolute() else root / path).resolve()
+    data = absolute(os.environ.get('RADAR_DATA_ROOT') or root / 'var')
+    track = absolute(os.environ.get('RADAR_TRACK_DIR') or data / 'tracking/txt')
+    return dict(project=root, data=data, track=track, settings=data / 'config/gui_runtime.ini',
+                ros_source=root / 'ros2_ws/src/my_radar_follower', ros_install=root / 'ros2_ws/install')
+
+
+def verify_loaded_package(module_file):
+    root=project_root()
+    if (root/'VERSION.txt').read_text(encoding='utf-8').strip()!=VERSION:
+        raise RuntimeError('Package/project version marker mismatch')
+    expected=root/'ros2_ws/src/my_radar_follower/my_radar_follower'
+    actual=Path(module_file).resolve()
+    if not expected.is_dir() or actual.parent!=expected.resolve():
+        raise RuntimeError(f'Wrong ROS package: loaded={actual}, expected={expected}. Rebuild and source this project overlay last.')
+    return root
+
+def shm_key():
+    value=int(os.environ.get('RADAR_ODOM_SHM_KEY',str(DEFAULT_KEY)))
+    if not 1<=value<=2147483647:raise ValueError('RADAR_ODOM_SHM_KEY outside positive int32')
+    if value in (123456,123457):raise ValueError('Reserved legacy IPC key; use a separate V8/V9 key, never overwrite V4/V5')
+    return value

@@ -1,0 +1,292 @@
+{
+	"BUILD_DIR" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/radar_gui_core_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jetson/radar_test_1022/V1024-2158",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jetson/radar_test_1022/V1024-2158/CMakeLists.txt",
+		"/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/CMakeFiles/3.22.1/CMakeSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.22/Modules/CTest.cmake",
+		"/usr/share/cmake-3.22/Modules/CTestUseLaunchers.cmake",
+		"/usr/share/cmake-3.22/Modules/CTestTargets.cmake",
+		"/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindCUDA.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindCUDA/select_compute_arch.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules.cmake",
+		"/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake",
+		"/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/CMakeFiles/3.22.1/CMakeCUDACompiler.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCUDAInformation.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/NVIDIA-CUDA.cmake",
+		"/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake-3.22/Modules/FindCUDAToolkit.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake",
+		"/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPython3.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPython/Support.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jetson/radar_test_1022/V1024-2158",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_assist_panel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_camera_assist_panel.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_recording.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_camera_recording.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_replay.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_camera_replay.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_worker.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_camera_worker.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/cluster.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_cluster.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/cooperative_view.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_cooperative_view.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/radar_config.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_radar_config.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/radar_gui.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_radar_gui.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/realtime_capture.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_realtime_capture.cpp",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/ros_runtime_panel.hpp",
+			"Mu",
+			"EWIEGA46WW/moc_ros_runtime_panel.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/radar_gui_core_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/radar_gui_core_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"RADAR_ENABLE_CAMERA=1",
+		"RADAR_ENABLE_CUDA=1",
+		"RADAR_GUI_ENABLE_TEST_ACCESS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jetson/radar_test_1022/V1024-2158",
+		"/usr/local/cuda-12.6/include",
+		"/usr/include/aarch64-linux-gnu/qt5",
+		"/usr/include/aarch64-linux-gnu/qt5/QtCore",
+		"/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/aarch64-linux-gnu/qt5/QtGui",
+		"/usr/include/aarch64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/aarch64-linux-gnu/qt5/QtNetwork",
+		"/usr/local/include/opencv4",
+		"/usr/include/c++/11",
+		"/usr/include/aarch64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/aarch64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/aarch64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/radar_gui_core_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/CMakeFiles/radar_gui_core_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/CMakeFiles/radar_gui_core_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_assist_panel.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_recording.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_replay.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/camera_worker.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/jetson/radar_test_1022/V1024-2158/cluster.cpp", "Mu", null ],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/cooperative_view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/radar_config.cpp",
+			"Mu",
+			null
+		],
+		[ "/home/jetson/radar_test_1022/V1024-2158/radar_gui.cpp", "Mu", null ],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/realtime_capture.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/jetson/radar_test_1022/V1024-2158/ros_runtime_panel.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

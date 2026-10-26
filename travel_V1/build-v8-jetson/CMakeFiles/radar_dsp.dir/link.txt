@@ -1,0 +1,2 @@
+/usr/bin/ar qc libradar_dsp.a CMakeFiles/radar_dsp.dir/fft.cpp.o CMakeFiles/radar_dsp.dir/CFAR.cpp.o CMakeFiles/radar_dsp.dir/DoA.cpp.o CMakeFiles/radar_dsp.dir/signal_processing.cpp.o CMakeFiles/radar_dsp.dir/iwr6843param.cpp.o CMakeFiles/radar_dsp.dir/fft_cuda_optimized_v2.cu.o
+/usr/bin/ranlib libradar_dsp.a

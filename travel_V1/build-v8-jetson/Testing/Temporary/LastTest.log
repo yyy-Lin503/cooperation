@@ -1,0 +1,544 @@
+Start testing: Oct 24 22:25 CST
+----------------------------------------------------------
+1/31 Testing: camera_association
+1/31 Test: camera_association
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/camera_association_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"camera_association" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: manual binding without calibration, time/session/UID/selection gates and conservative visual IDs
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"camera_association" end time: Oct 24 22:25 CST
+"camera_association" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/31 Testing: odom_wire
+2/31 Test: odom_wire
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/odom_wire_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"odom_wire" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS odom codec: roundtrip, stale, future, checksum, invalid, legacy
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"odom_wire" end time: Oct 24 22:25 CST
+"odom_wire" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/31 Testing: odom_ipc_integration
+3/31 Test: odom_ipc_integration
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/odom_ipc_integration_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"odom_ipc_integration" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS Linux IPC reconnect after segment recreation and disappearance
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"odom_ipc_integration" end time: Oct 24 22:25 CST
+"odom_ipc_integration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/31 Testing: doa_stability
+4/31 Test: doa_stability
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/doa_stability_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"doa_stability" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: DOA invalid inputs, scale/phase invariance, 11 angles, 1100 perturbations, FFT sine mapping and 55 TDM cases
+max_ideal_error_deg=0.0030899 max_perturbation_delta_deg=3.8147e-05
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"doa_stability" end time: Oct 24 22:25 CST
+"doa_stability" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/31 Testing: cuda_fft_contract
+5/31 Test: cuda_fft_contract
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/cuda_fft_contract_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"cuda_fft_contract" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: CPU/CUDA equivalence, batch bounds and DSP dimension changes
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"cuda_fft_contract" end time: Oct 24 22:25 CST
+"cuda_fft_contract" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/31 Testing: radar_config_validation
+6/31 Test: radar_config_validation
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/radar_config_validation_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"radar_config_validation" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: invalid/missing cfg fields, zero antennas, unsupported chirp layout and fractional parameters
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"radar_config_validation" end time: Oct 24 22:25 CST
+"radar_config_validation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/31 Testing: frame_context_and_motion
+7/31 Test: frame_context_and_motion
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/frame_context_motion_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"frame_context_and_motion" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: shared motion, time metadata, confirmed measurement age, reset and recording gaps
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"frame_context_and_motion" end time: Oct 24 22:25 CST
+"frame_context_and_motion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/31 Testing: capture_reliability
+8/31 Test: capture_reliability
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/capture_reliability_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"capture_reliability" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: packet boundaries/gaps, startup failures, bounded queue, stale frames, timed join, repeated stop and destructor
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"capture_reliability" end time: Oct 24 22:25 CST
+"capture_reliability" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/31 Testing: dca_control
+9/31 Test: dca_control
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/dca_control_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"dca_control" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: DCA handshake with same/different reply ports, foreign IP rejection, asynchronous device status, device failure, mismatched echo, timeout and stop acknowledgement
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"dca_control" end time: Oct 24 22:25 CST
+"dca_control" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/31 Testing: v2158_tracking
+10/31 Test: v2158_tracking
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/v2158_tracking_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"v2158_tracking" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: three-hit UID recovery, stable task identity, ambiguous refusal and real-time prediction cap
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"v2158_tracking" end time: Oct 24 22:25 CST
+"v2158_tracking" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/31 Testing: v3_stability
+11/31 Test: v3_stability
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/v3_tracking_stability_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"v3_stability" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: fresh extent, old-only suppression, same-UID short gap, occlusion coast, original-UID region resume, other-UID refusal, coast stop, bounded ROI
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"v3_stability" end time: Oct 24 22:25 CST
+"v3_stability" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/31 Testing: tracking_regression
+12/31 Test: tracking_regression
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/target_tracking_match_result_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"tracking_regression" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: association, bounded reacquire, loss policy, centroid, track lifecycle
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"tracking_regression" end time: Oct 24 22:25 CST
+"tracking_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/31 Testing: odom_replay
+13/31 Test: odom_replay
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/offline_odom_replay_test" "fixture_capture.bin" "/home/jetson/radar_test_1022/V1024-2158/tests/fixtures/odom"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"odom_replay" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: loaded 2 synchronized motion frames from /home/jetson/radar_test_1022/V1024-2158/tests/fixtures/odom/fixture_diagnostics.csv first_frame=1 dsp_vx=0.2 dsp_wz=0.1 tracking_vx=0.2 tracking_wz=0.1
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"odom_replay" end time: Oct 24 22:25 CST
+"odom_replay" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/31 Testing: replay_boundaries
+14/31 Test: replay_boundaries
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/offline_replay_boundary_test" "/home/jetson/radar_test_1022/V1024-2158/tests/fixtures/odom/boundary.csv"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"replay_boundaries" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: boundary timestamp estimates, no invented odom, cfg metadata and failed-load reset
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"replay_boundaries" end time: Oct 24 22:25 CST
+"replay_boundaries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/31 Testing: iq_and_doppler
+15/31 Test: iq_and_doppler
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/frame_layout_doppler_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"iq_and_doppler" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: IQ frame size, bounds rejection, decode, FFT DC and +/- Doppler bins
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"iq_and_doppler" end time: Oct 24 22:25 CST
+"iq_and_doppler" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/31 Testing: tracking_txt_protocol
+16/31 Test: tracking_txt_protocol
+Command: "/usr/bin/python3.10" "/home/jetson/radar_test_1022/V1024-2158/tests/test_txt_tracker_bridge_protocol.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"tracking_txt_protocol" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: ROS 21-column tracking protocol
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"tracking_txt_protocol" end time: Oct 24 22:25 CST
+"tracking_txt_protocol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/31 Testing: recording_index_cli
+17/31 Test: recording_index_cli
+Command: "/usr/bin/python3.10" "/home/jetson/radar_test_1022/V1024-2158/tests/test_recording_index_cli.py" "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/replay_v3" "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/bin2pointcloud" "/home/jetson/radar_test_1022/V1024-2158/config/IWR6843_260714-15m-10Hz-9.8cm.cfg"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"recording_index_cli" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: real replay/converter, indexed gaps, Windows provenance paths and corrupt-index rejection
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Passed.
+"recording_index_cli" end time: Oct 24 22:25 CST
+"recording_index_cli" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/31 Testing: replay_input_paths
+18/31 Test: replay_input_paths
+Command: "/usr/bin/python3.10" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_replay_inputs.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"replay_input_paths" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+OK
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"replay_input_paths" end time: Oct 24 22:25 CST
+"replay_input_paths" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/31 Testing: bridge_runtime
+19/31 Test: bridge_runtime
+Command: "/usr/bin/python3.10" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_bridge_runtime.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"bridge_runtime" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+.......................................
+----------------------------------------------------------------------
+Ran 39 tests in 0.111s
+
+OK
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"bridge_runtime" end time: Oct 24 22:25 CST
+"bridge_runtime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/31 Testing: odom_receiver_state
+20/31 Test: odom_receiver_state
+Command: "/usr/bin/python3.10" "-B" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_odom_transport.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"odom_receiver_state" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 0.004s
+
+OK
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"odom_receiver_state" end time: Oct 24 22:25 CST
+"odom_receiver_state" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/31 Testing: overlay_verification
+21/31 Test: overlay_verification
+Command: "/usr/bin/python3.10" "-B" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_overlay_verification.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"overlay_verification" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.029s
+
+OK
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"overlay_verification" end time: Oct 24 22:25 CST
+"overlay_verification" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/31 Testing: gui_runtime_orchestration
+22/31 Test: gui_runtime_orchestration
+Command: "/usr/bin/python3.10" "-B" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_gui_runtime.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"gui_runtime_orchestration" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+....................
+----------------------------------------------------------------------
+Ran 20 tests in 0.197s
+
+OK
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"gui_runtime_orchestration" end time: Oct 24 22:25 CST
+"gui_runtime_orchestration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/31 Testing: gui_owned_processes
+23/31 Test: gui_owned_processes
+Command: "/usr/bin/python3.10" "-B" "-m" "unittest" "discover" "-s" "/home/jetson/radar_test_1022/V1024-2158/tests" "-p" "test_gui_processes.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"gui_owned_processes" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.613s
+
+OK
+<end of output>
+Test time =   0.80 sec
+----------------------------------------------------------
+Test Passed.
+"gui_owned_processes" end time: Oct 24 22:25 CST
+"gui_owned_processes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/31 Testing: camera_recording
+24/31 Test: camera_recording
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/camera_recording_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"camera_recording" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: async camera archive, frame index, event alignment, original JPEG and restart preservation
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"camera_recording" end time: Oct 24 22:25 CST
+"camera_recording" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/31 Testing: camera_replay
+25/31 Test: camera_replay
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/camera_replay_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"camera_replay" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+This plugin does not support propagateSizeHints()
+PASS: real JPEG archive playback, seek and frame stepping without sensor/control objects
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"camera_replay" end time: Oct 24 22:25 CST
+"camera_replay" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/31 Testing: camera_panel
+26/31 Test: camera_panel
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/camera_panel_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"camera_panel" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: manual binding, compact/full canvas click mapping, display evidence freshness, restart/selection gates and worker cleanup
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"camera_panel" end time: Oct 24 22:25 CST
+"camera_panel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/31 Testing: indoor_selection
+27/31 Test: indoor_selection
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/indoor_selection_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"indoor_selection" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+PASS: point-cloud hit testing, ID-column selection and confirmation motion gate
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"indoor_selection" end time: Oct 24 22:25 CST
+"indoor_selection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/31 Testing: cooperative_layout
+28/31 Test: cooperative_layout
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/cooperative_layout_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"cooperative_layout" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+PASS: 960x573/1280x720 three-pane geometry, 18 shared-widget tab switches, 8 real splitter drags, isolated synthetic preview and shutdown; no hardware/ROS started
+<end of output>
+Test time =   1.51 sec
+----------------------------------------------------------
+Test Passed.
+"cooperative_layout" end time: Oct 24 22:25 CST
+"cooperative_layout" time elapsed: 00:00:01
+----------------------------------------------------------
+
+29/31 Testing: ros_runtime_panel
+29/31 Test: ros_runtime_panel
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/ros_runtime_panel_test" "/home/jetson/radar_test_1022/V1024-2158/tests/fake_gui_runtime.py"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"ros_runtime_panel" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+PASS: root resolution, helper display freshness/stop/restart/crash gates, GUI configuration and process cleanup
+<end of output>
+Test time =   0.91 sec
+----------------------------------------------------------
+Test Passed.
+"ros_runtime_panel" end time: Oct 24 22:25 CST
+"ros_runtime_panel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/31 Testing: gui_transport
+30/31 Test: gui_transport
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/gui_transport_test" "/home/jetson/radar_test_1022/V1024-2158/config/IWR6843_260714-15m-10Hz-9.8cm.cfg"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"gui_transport" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+[TRACK-STATS-FINAL] source=realtime session=1792851925626 window=3 id_mode=confirmed updates=7 points_avg=7.714 clusters_avg=1.000 candidates_avg=0.571 active_tracks_avg=1.000 measurement_hit_rate=0.750 predicted=1 stopped=0 reacquire=0 raw_track_births=1 exposed_id_births=1 max_display_id=1 measured_step_rms_m=0.000 e2e_ms_mean=9.239 e2e_ms_p95=57.201 e2e_ms_max=57.201 deadline_miss_gt100ms=0 end_reason=realtime_capture_stopped
+PASS: Qt UDP session, manual confirmation, unchanged TXT, metadata age, diagnostics and mode-switch shutdown
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"gui_transport" end time: Oct 24 22:25 CST
+"gui_transport" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/31 Testing: gui_lifecycle
+31/31 Test: gui_lifecycle
+Command: "/home/jetson/radar_test_1022/V1024-2158/build-v8-jetson/gui_lifecycle_test"
+Directory: /home/jetson/radar_test_1022/V1024-2158/build-v8-jetson
+"gui_lifecycle" start time: Oct 24 22:25 CST
+Output:
+----------------------------------------------------------
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+[radar_config] Serial port opened successfully
+[radar_config] Serial port opened successfully
+[CONFIG] point_window_frames=3, track_id_mode=confirmed, log_level=summary
+PASS: headless GUI create/close/explicit exit/repeated cleanup without device commands
+<end of output>
+Test time =   1.45 sec
+----------------------------------------------------------
+Test Passed.
+"gui_lifecycle" end time: Oct 24 22:25 CST
+"gui_lifecycle" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 24 22:25 CST

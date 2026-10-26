@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "cpu",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/cpu",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "BUILD_RADAR_APP": "OFF",
+        "RADAR_ENABLE_CUDA": "OFF",
+        "RADAR_ENABLE_CAMERA": "OFF",
+        "BUILD_TESTING": "ON"
+      }
+    },
+    {
+      "name": "wsl",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/wsl",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "BUILD_RADAR_APP": "ON",
+        "RADAR_ENABLE_CUDA": "OFF",
+        "RADAR_ENABLE_CAMERA": "ON",
+        "BUILD_TESTING": "ON"
+      }
+    },
+    {
+      "name": "jetson",
+      "generator": "Unix Makefiles",
+      "binaryDir": "${sourceDir}/build/jetson",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "BUILD_RADAR_APP": "ON",
+        "RADAR_ENABLE_CUDA": "ON",
+        "RADAR_ENABLE_CAMERA": "ON",
+        "BUILD_TESTING": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "cpu",
+      "configurePreset": "cpu"
+    },
+    {
+      "name": "wsl",
+      "configurePreset": "wsl"
+    },
+    {
+      "name": "jetson",
+      "configurePreset": "jetson"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "cpu",
+      "configurePreset": "cpu",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "wsl",
+      "configurePreset": "wsl",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "jetson",
+      "configurePreset": "jetson",
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

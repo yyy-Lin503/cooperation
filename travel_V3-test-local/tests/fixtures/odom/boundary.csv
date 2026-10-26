@@ -1,0 +1,2 @@
+frame,input_path,source,radar_timestamp,radar_config_file,dsp_odom_vx_mps,dsp_odom_wz_radps,dsp_odom_timestamp_sec,dsp_odom_valid,dsp_odom_fresh
+3,boundary.bin,realtime,2026-08-14 16:22:52.303,./config/recorded.cfg,0.2,0.1,1786695772.421300,1,1

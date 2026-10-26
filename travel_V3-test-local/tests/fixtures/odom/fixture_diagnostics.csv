@@ -1,0 +1,3 @@
+frame,input_path,source,radar_timestamp,dsp_odom_vx_mps,dsp_odom_wz_radps,dsp_odom_timestamp_sec,dsp_odom_valid,dsp_odom_fresh,dsp_odom_seq,dsp_odom_age_sec,tracking_odom_vx_mps,tracking_odom_wz_radps,tracking_odom_timestamp_sec,tracking_odom_valid,tracking_odom_fresh,tracking_odom_seq,tracking_odom_age_sec
+1,fixture_capture.bin,realtime,2026-10-12T10:00:00.000,0.2,0.1,1791770400.0,1,1,1,0.01,0.2,0.1,1791770400.0,1,1,1,0.01
+2,fixture_capture.bin,realtime,2026-10-12T10:00:00.100,0.25,0.0,1791770400.1,1,1,2,0.01,0.25,0.0,1791770400.1,1,1,2,0.01

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/odom_wire_test.dir/tests/odom_wire_test.cpp.o -o odom_wire_test   -L/usr/local/cuda/lib64 

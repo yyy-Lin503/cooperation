@@ -1,0 +1,11 @@
+txt_radar_bridge:
+  ros__parameters:
+    desired_distance_m: 2.0
+    angular_kp: 7.0
+    linear_kp: 1.2
+    max_linear_speed_mps: 0.8
+    max_angular_speed_radps: 0.8
+    timer_period_sec: 0.05
+    data_timeout_sec: 0.5
+    odom_topic: /odom
+    cmd_vel_topic: /cmd_vel

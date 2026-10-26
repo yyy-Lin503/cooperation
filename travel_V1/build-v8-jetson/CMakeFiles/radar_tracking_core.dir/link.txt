@@ -1,0 +1,2 @@
+/usr/bin/ar qc libradar_tracking_core.a CMakeFiles/radar_tracking_core.dir/target_tracking.cpp.o CMakeFiles/radar_tracking_core.dir/trajectory_association.cpp.o
+/usr/bin/ranlib libradar_tracking_core.a
